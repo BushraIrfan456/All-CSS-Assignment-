@@ -1,0 +1,48 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+ }
+  body{
+   background-color: lightgray;
+   background-image: url(/image/themetable.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: fixed;
+
+  }
+
+.menu-Bar{
+  background:#0B86A5;
+  text-align: center;
+}
+.menu-Bar ul{
+  display: inline-flex;
+  list-style: none;
+  color: darkblue;
+}
+.menu-Bar ul li{
+  width: 80px;
+  margin: 15px;
+  padding: 15px;
+}
+.menu-Bar ul li a {
+  text-decoration: none;
+  color: white;
+}
+.active,.menu-Bar ul li :hover{
+  background-color: lightblue;
+  border-radius: 2px;
+}
+h1{
+  color: white;
+  display: inline-flex;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+.img{
+  display: inline-flex;
+  
+}
+
