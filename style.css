@@ -10,11 +10,10 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    color: white;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.400),rgba(0, 0, 0, 0.200)), url(./image/beautiful.jpg)
+    color: blue;
+    background-color: grey;
 }
 .container{
-           display: flex;
             justify-content: space-around;
             flex-wrap: wrap;
 }
@@ -57,4 +56,35 @@ h1{
             background-color: #fff;
             box-shadow: 0;
 }
-  
+  .card5{
+           width: 200px;
+            padding: 150px;
+            margin: 150px auto;
+            border-radius: 10px;
+            background-color: #fff;
+            box-shadow: 0;
+  }
+  .card6{
+    width: 200px;
+            padding: 150px;
+            margin: 150px auto;
+            border-radius: 10px;
+            background-color: #fff;
+            box-shadow: 0;
+  }
+  .card7{
+    width: 200px;
+            padding: 150px;
+            margin: 150px auto;
+            border-radius: 10px;
+            background-color: #fff;
+            box-shadow: 0;
+  }
+  .card8{
+    width: 200px;
+            padding: 150px;
+            margin: 150px auto;
+            border-radius: 10px;
+            background-color: #fff;
+            box-shadow: 0;
+  }
