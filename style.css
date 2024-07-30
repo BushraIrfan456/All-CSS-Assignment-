@@ -1,48 +1,60 @@
 *{
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
- }
-  body{
-   background-color: lightgray;
-   background-image: url(/image/themetable.jpg);
-   background-repeat: no-repeat;
-   background-size: cover;
-   background-position: fixed;
-
-  }
-
-.menu-Bar{
-  background:#0B86A5;
-  text-align: center;
+  scroll-behavior: smooth;
+  font-family: sans-serif; 
 }
-.menu-Bar ul{
-  display: inline-flex;
-  list-style: none;
-  color: darkblue;
+body{ 
+    height: 3000px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.400),rgba(0, 0, 0, 0.200)), url(./image/beautiful.jpg)
 }
-.menu-Bar ul li{
-  width: 80px;
-  margin: 15px;
-  padding: 15px;
-}
-.menu-Bar ul li a {
-  text-decoration: none;
-  color: white;
-}
-.active,.menu-Bar ul li :hover{
-  background-color: lightblue;
-  border-radius: 2px;
+.container{
+           display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
 }
 h1{
-  color: white;
-  display: inline-flex;
-  font-family: "Bebas Neue", sans-serif;
-  font-weight: 900;
-  font-style: normal;
+   color: white; 
+   font-size: 2em;
+  text-align: center;
+  font-weight: bold;
+   font: sans-serif;
 }
-.img{
-  display: inline-flex;
+.card1{
+            width: 200px;
+            padding: 150px;
+            margin: 150px auto;
+            border-radius: 10px;
+            background-color: #fff;
+            box-shadow: 0;
+}
+.card2{
+             width: 200px;
+            padding: 150px;
+            margin: 150px auto;
+            border-radius: 10px;
+            background-color: #fff;
+            box-shadow: 0;
+}
+.card3{
+          width: 200px;
+            padding: 150px;
+            margin: 150px auto;
+            border-radius: 10px;
+            background-color: #fff;
+            box-shadow: 0;
+}
+.card4{
+              width: 200px;
+            padding: 150px;
+            margin: 150px auto;
+            border-radius: 10px;
+            background-color: #fff;
+            box-shadow: 0;
+}
   
-}
-
